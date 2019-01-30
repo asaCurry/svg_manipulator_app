@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 0px;
+  width: 100%;
+  box-shadow: 0px 3px 3px #f5f5f5;
+}
+.App-header img {
+  height: 80px;
+  width: auto;
+}
+.App-link {
+  color: #61dafb;
+}
+
+/*** svg manipulator ***/
+
+.dropSVG {
+  padding: 36px 0;
+}
+.svgManipulator {
+  max-width: 600px;
+  margin: 0 auto;
+  height: 100vh;
+  padding: 45px;
+}
+
+.modifiersRow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+}
